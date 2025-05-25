@@ -29,7 +29,7 @@ console.log (1 + 1 * 2) // precedência
 
 */
 
-//usando função com parametros 
+//cusando função com parametros 
 
 function calcularConsumoDeRacao(nome, peso, estoque){
     const gramasPorDia = peso * 30
