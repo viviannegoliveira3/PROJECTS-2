@@ -58,7 +58,6 @@ function decidirTipoDeAtividadePorPorte(porte) {
 }
 
 
-
 export {
    buscarDadoAsync
 }
