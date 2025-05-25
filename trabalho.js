@@ -23,9 +23,7 @@ try {
 export {
    verificarSePodeSerAdotado
 }
-    const idade = 1;
-    const porte = 'M';
-    const resultado = verificarSePodeSerAdotado(idade, porte);
+   
 
 function verificarSePodeSerAdotado(idade, porte) {
   return idade >= 1 && porte === 'M';
