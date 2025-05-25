@@ -8,6 +8,16 @@ function geradorDeTagsDeIdentificacao () {
  return nome.toUpperCase();
 }
 
+try {
+      
+      assert.strictEqual(geradorDeTagsDeIdentificacao('Pantera'), 'PANTERA'); 
+      
+      console.log('Resultado: Teste passou!');
+
+    } catch (erro) {
+      
+      console.error('Resultado: Teste falhou:', erro.message);
+    }
 
 
 export {
