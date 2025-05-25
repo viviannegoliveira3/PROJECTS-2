@@ -35,10 +35,12 @@ export {
    calcularConsumoDeRacao
 }
 
+    const peso = 14.5;
+    const resultado = calcularConsumoDeRacao(peso);
+
 function calcularConsumoDeRacao(peso) {
    return 4350;
-  const peso = 14.5;
-  const resultado = calcularConsumoDeRacao(peso);
+
 }
 
 export {
