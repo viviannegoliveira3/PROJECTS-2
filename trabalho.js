@@ -8,12 +8,21 @@ function geradorDeTagsDeIdentificacao () {
  return nome.toUpperCase();
 }
 
+try {
+      
+      assert.strictEqual(geradorDeTagsDeIdentificacao('Pantera'), 'PANTERA'); 
+      
+      console.log('Resultado: Teste passou!');
 
+    } catch (erro) {
+      
+      console.error('Resultado: Teste falhou:', erro.message);
+    }
 
 export {
    verificarSePodeSerAdotado
 }
-
+  
 
 function verificarSePodeSerAdotado(idade, porte) {
   return idade >= 1 && porte === 'M';
@@ -24,6 +33,9 @@ function verificarSePodeSerAdotado(idade, porte) {
 export {
    calcularConsumoDeRacao
 }
+
+    const peso = 14.5;
+    const resultado = calcularConsumoDeRacao(peso);
 
 function calcularConsumoDeRacao(peso) {
    return 4350;
