@@ -13,6 +13,14 @@ try {
       assert.strictEqual(geradorDeTagsDeIdentificacao('Pantera'), 'PANTERA'); 
       
       console.log('Resultado: Teste passou!');
+<<<<<<< HEAD
+=======
+
+    } catch (erro) {
+      
+      console.error('Resultado: Teste falhou:', erro.message);
+    }
+>>>>>>> 86761a447d406fc350917687242da27a61924224
 
     } catch (erro) {
       
@@ -22,7 +30,11 @@ try {
 export {
    verificarSePodeSerAdotado
 }
+<<<<<<< HEAD
   
+=======
+   
+>>>>>>> 86761a447d406fc350917687242da27a61924224
 
 function verificarSePodeSerAdotado(idade, porte) {
   return idade >= 1 && porte === 'M';
@@ -39,7 +51,7 @@ export {
 
 function calcularConsumoDeRacao(peso) {
    return 4350;
-  
+
 }
 
 export {
@@ -55,7 +67,6 @@ function decidirTipoDeAtividadePorPorte(porte) {
   }
 
 }
-
 
 
 export {
